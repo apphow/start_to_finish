@@ -23,8 +23,18 @@ class MyPassport extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   CircleAvatar(
-                      radius: 120.0,
-                      backgroundImage: AssetImage('images/mesjpeg.jpeg')),
+                    radius: 120.0,
+                    backgroundImage: AssetImage('images/mesjpeg.jpeg'),
+                  ),
+                  Text(
+                    'Name: April Howard',
+                    style: TextStyle(
+                      fontSize: 25,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                      letterSpacing: 1.0,
+                    ),
+                  ),
                 ],
               ),
             ),
