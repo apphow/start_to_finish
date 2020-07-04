@@ -38,6 +38,13 @@ class MyPassport extends StatelessWidget {
                       letterSpacing: 1.0,
                     ),
                   ),
+                  SizedBox(
+                    height: 10.0,
+                    width: 150.0,
+                    child: Divider(
+                      color: Colors.teal.shade100,
+                    ),
+                  ),
                   Text(
                     'Issue Date: 07/04/2020',
                     style: TextStyle(
@@ -45,6 +52,13 @@ class MyPassport extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                         color: Colors.white,
                         letterSpacing: 1.0),
+                  ),
+                  SizedBox(
+                    height: 10.0,
+                    width: 150.0,
+                    child: Divider(
+                      color: Colors.teal.shade100,
+                    ),
                   ),
                 ],
               ),
