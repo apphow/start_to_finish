@@ -26,6 +26,9 @@ class MyPassport extends StatelessWidget {
                     radius: 120.0,
                     backgroundImage: AssetImage('images/mesjpeg.jpeg'),
                   ),
+                  SizedBox(
+                    height: 50.0,
+                  ),
                   Text(
                     'Name: April Howard',
                     style: TextStyle(
