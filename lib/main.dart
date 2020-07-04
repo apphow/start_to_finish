@@ -60,6 +60,22 @@ class MyPassport extends StatelessWidget {
                       color: Colors.teal.shade100,
                     ),
                   ),
+                  Text(
+                    'Expiration Date: 07/04/2021',
+                    style: TextStyle(
+                      fontSize: 25.0,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                      letterSpacing: 1.0,
+                    ),
+                  ),
+                  SizedBox(
+                    height: 10.0,
+                    width: 150.0,
+                    child: Divider(
+                      color: Colors.teal.shade100,
+                    ),
+                  ),
                 ],
               ),
             ),
