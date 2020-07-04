@@ -108,6 +108,17 @@ class MyPassport extends StatelessWidget {
                       color: Colors.teal.shade100,
                     ),
                   ),
+                  Card(
+                      margin: EdgeInsets.symmetric(
+                          vertical: 10.0, horizontal: 20.0),
+                      color: Colors.white,
+                      child: ListTile(
+                        leading: Icon(
+                          Icons.phone,
+                          size: 40.0,
+                          color: Colors.teal,
+                        ),
+                      )),
                 ],
               ),
             ),
