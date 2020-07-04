@@ -76,6 +76,15 @@ class MyPassport extends StatelessWidget {
                       color: Colors.teal.shade100,
                     ),
                   ),
+                  Text(
+                    'Date of Last Visit: 07/02/2020',
+                    style: TextStyle(
+                      fontSize: 25.0,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                      letterSpacing: 1.0,
+                    ),
+                  ),
                 ],
               ),
             ),
