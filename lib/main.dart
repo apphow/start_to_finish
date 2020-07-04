@@ -18,7 +18,7 @@ class MyPassport extends StatelessWidget {
         body: SafeArea(
           child: Center(
             child: Padding(
-              padding: EdgeInsets.only(bottom: 100.0),
+              padding: EdgeInsets.only(bottom: 15.0),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
@@ -27,66 +27,62 @@ class MyPassport extends StatelessWidget {
                     backgroundImage: AssetImage('images/mesjpeg.jpeg'),
                   ),
                   SizedBox(
-                    height: 50.0,
+                    height: 20.0,
                   ),
                   Text(
-                    'Name: April Howard',
+                    'April Howard',
                     style: TextStyle(
                       fontSize: 25,
-                      fontWeight: FontWeight.bold,
                       color: Colors.white,
                       letterSpacing: 1.0,
                     ),
                   ),
                   SizedBox(
-                    height: 10.0,
-                    width: 150.0,
+                    height: 20.0,
+                    width: 150,
                     child: Divider(
                       color: Colors.teal.shade100,
                     ),
                   ),
                   Text(
-                    'Issue Date: 07/04/2020',
+                    'Issued: 07/04/2020',
                     style: TextStyle(
-                        fontSize: 25.0,
-                        fontWeight: FontWeight.bold,
+                        fontSize: 20.0,
                         color: Colors.white,
                         letterSpacing: 1.0),
                   ),
                   SizedBox(
-                    height: 10.0,
+                    height: 20.0,
                     width: 150.0,
                     child: Divider(
                       color: Colors.teal.shade100,
                     ),
                   ),
                   Text(
-                    'Expiration Date: 07/04/2021',
+                    'Expires: 07/04/2021',
                     style: TextStyle(
-                      fontSize: 25.0,
-                      fontWeight: FontWeight.bold,
+                      fontSize: 20.0,
                       color: Colors.white,
                       letterSpacing: 1.0,
                     ),
                   ),
                   SizedBox(
-                    height: 10.0,
+                    height: 20.0,
                     width: 150.0,
                     child: Divider(
                       color: Colors.teal.shade100,
                     ),
                   ),
                   Text(
-                    'Date of Last Visit: 07/02/2020',
+                    'Recent Visit: 07/02/2020',
                     style: TextStyle(
-                      fontSize: 25.0,
-                      fontWeight: FontWeight.bold,
+                      fontSize: 20.0,
                       color: Colors.white,
                       letterSpacing: 1.0,
                     ),
                   ),
                   SizedBox(
-                    height: 10.0,
+                    height: 20.0,
                     width: 150.0,
                     child: Divider(
                       color: Colors.teal.shade100,
@@ -95,14 +91,13 @@ class MyPassport extends StatelessWidget {
                   Text(
                     'Approved by: John Doe',
                     style: TextStyle(
-                      fontSize: 25.0,
-                      fontWeight: FontWeight.bold,
+                      fontSize: 20.0,
                       color: Colors.white,
                       letterSpacing: 1.0,
                     ),
                   ),
                   SizedBox(
-                    height: 10.0,
+                    height: 20.0,
                     width: 150.0,
                     child: Divider(
                       color: Colors.teal.shade100,
@@ -121,7 +116,28 @@ class MyPassport extends StatelessWidget {
                       title: Text(
                         '         555-555-5555',
                         style: TextStyle(
+                          fontFamily: 'Source_Sans_Pro',
                           color: Colors.teal,
+                          fontSize: 20.0,
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    margin:
+                        EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
+                    color: Colors.white,
+                    child: ListTile(
+                      leading: Icon(
+                        Icons.email,
+                        size: 40.0,
+                        color: Colors.teal,
+                      ),
+                      title: Text(
+                        '        aaa@aaa.com',
+                        style: TextStyle(
+                          color: Colors.teal,
+                          fontFamily: 'Source Sans Pro',
                           fontSize: 20.0,
                         ),
                       ),
