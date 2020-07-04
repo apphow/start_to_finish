@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+import 'dart:ui';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,76 +13,77 @@ class MyPassport extends StatelessWidget {
         backgroundColor: Colors.teal,
         appBar: AppBar(
           backgroundColor: Colors.black,
-          title: Text('Passport Approval Page'),
+          title: Text('Access Brandywine'),
         ),
         body: SafeArea(
           child: Center(
             child: Padding(
-              padding: EdgeInsets.only(bottom: 15.0),
+              padding: EdgeInsets.only(top: 20.0),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
+                  Text(
+                    'April Howard',
+                    style: TextStyle(
+                      fontSize: 30.0,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                      letterSpacing: 1.5,
+                    ),
+                  ),
+                  SizedBox(
+                    height: 30,
+                  ),
                   CircleAvatar(
                     radius: 120.0,
                     backgroundImage: AssetImage('images/mesjpeg.jpeg'),
                   ),
                   SizedBox(
-                    height: 20.0,
+                    height: 30.0,
                   ),
                   Text(
-                    'April Howard',
+                    'Issued: 07/01/2020',
                     style: TextStyle(
-                      fontSize: 25,
+                      fontSize: 20.0,
+                      fontWeight: FontWeight.bold,
                       color: Colors.white,
-                      letterSpacing: 1.0,
+                      letterSpacing: 1.5,
                     ),
                   ),
                   SizedBox(
-                    height: 20.0,
-                    width: 150,
-                    child: Divider(
-                      color: Colors.teal.shade100,
-                    ),
-                  ),
-                  Text(
-                    'Issued: 07/04/2020',
-                    style: TextStyle(
-                        fontSize: 20.0,
-                        color: Colors.white,
-                        letterSpacing: 1.0),
-                  ),
-                  SizedBox(
-                    height: 20.0,
+                    height: 10.0,
                     width: 150.0,
                     child: Divider(
                       color: Colors.teal.shade100,
                     ),
                   ),
                   Text(
-                    'Expires: 07/04/2021',
+                    'Expires: 07/01/2020 ',
                     style: TextStyle(
                       fontSize: 20.0,
+                      fontWeight: FontWeight.bold,
                       color: Colors.white,
-                      letterSpacing: 1.0,
+                      letterSpacing: 1.5,
                     ),
                   ),
                   SizedBox(
-                    height: 20.0,
+                    height: 10.0,
                     width: 150.0,
                     child: Divider(
                       color: Colors.teal.shade100,
                     ),
                   ),
                   Text(
-                    'Recent Visit: 07/02/2020',
+                    'Last visit: 07/02/2020 ',
                     style: TextStyle(
                       fontSize: 20.0,
+                      fontWeight: FontWeight.bold,
                       color: Colors.white,
-                      letterSpacing: 1.0,
+                      letterSpacing: 1.5,
                     ),
                   ),
                   SizedBox(
-                    height: 20.0,
+                    height: 10.0,
                     width: 150.0,
                     child: Divider(
                       color: Colors.teal.shade100,
@@ -92,16 +93,13 @@ class MyPassport extends StatelessWidget {
                     'Approved by: John Doe',
                     style: TextStyle(
                       fontSize: 20.0,
+                      fontWeight: FontWeight.bold,
                       color: Colors.white,
-                      letterSpacing: 1.0,
+                      letterSpacing: 1.5,
                     ),
                   ),
                   SizedBox(
-                    height: 20.0,
-                    width: 150.0,
-                    child: Divider(
-                      color: Colors.teal.shade100,
-                    ),
+                    height: 30.0,
                   ),
                   Card(
                     margin:
@@ -114,9 +112,8 @@ class MyPassport extends StatelessWidget {
                         color: Colors.teal,
                       ),
                       title: Text(
-                        '         555-555-5555',
+                        '        555-555-5555',
                         style: TextStyle(
-                          fontFamily: 'Source_Sans_Pro',
                           color: Colors.teal,
                           fontSize: 20.0,
                         ),
@@ -137,7 +134,6 @@ class MyPassport extends StatelessWidget {
                         '        aaa@aaa.com',
                         style: TextStyle(
                           color: Colors.teal,
-                          fontFamily: 'Source Sans Pro',
                           fontSize: 20.0,
                         ),
                       ),
