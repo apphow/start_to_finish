@@ -92,6 +92,15 @@ class MyPassport extends StatelessWidget {
                       color: Colors.teal.shade100,
                     ),
                   ),
+                  Text(
+                    'Approved by: John Doe',
+                    style: TextStyle(
+                      fontSize: 25.0,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                      letterSpacing: 1.0,
+                    ),
+                  ),
                 ],
               ),
             ),
