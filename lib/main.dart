@@ -113,12 +113,14 @@ class MyPassport extends StatelessWidget {
                         EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
                     color: Colors.white,
                     child: ListTile(
-                      leading: Icon(
-                        Icons.phone,
-                        size: 40.0,
-                        color: Colors.teal,
-                      ),
-                    ),
+                        leading: Icon(
+                          Icons.phone,
+                          size: 40.0,
+                          color: Colors.teal,
+                        ),
+                        title: Text(
+                          '          555-555-5555',
+                        )),
                   ),
                 ],
               ),
